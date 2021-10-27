@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "name": "ramesh",
+      "id": 90,
+      "profile": "kumar"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

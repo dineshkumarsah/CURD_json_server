@@ -1,0 +1,13 @@
+<div class="new-user-form">
+    <p style="text-align: center; font-size: 40px; font-weight: 900;">{{id?"User Edit Form":"Add new User"}}</p>
+    <form action="" [formGroup]="newUserForm" class="userForm">
+        <label style="margin-bottom: 10px;" for="">Name</label>
+        <input style="margin-bottom: 10px;"  type="text" formControlName="name">
+        <label style="margin-bottom: 10px;"  for="">Profile</label>
+        <input style="margin-bottom: 10px;"  type="text" formControlName="profile">
+        <div class="button">
+            <button (click)="save()">{{id? "Update": "SAVE"}}</button>
+            <button (click)="cancel()">cancel</button>
+        </div>
+    </form>
+</div>
